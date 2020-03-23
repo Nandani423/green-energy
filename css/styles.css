@@ -1,0 +1,158 @@
+body
+{
+    background-color: azure;
+}
+
+header{
+    clear:both;
+    overflow:auto;
+    margin: 2%;
+}
+  
+.navlink{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Crete Round', serif;
+}
+  
+.logo img{
+    float:left;
+}
+ 
+#active {
+  color: black;
+}
+
+h2{
+  color: #93D0DA;
+  font-family: 'Crete Round', serif;
+}
+ul li {
+    display: inline-block; 
+    font-size:35px; 
+    font-family: raleway;
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: #93D0DA;
+}
+main{
+    height: auto;
+    padding: 10px 10px 10px 10px;
+}
+.container{
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 15px;
+}
+.controls{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mainBtn{
+    color: #ffffff;
+    background-color: #93D0DA;
+    padding: 15px;
+    font-size:25px;
+    border-radius: 50px;
+    border-color: #93D0DA;
+}
+.subHeading{
+    width: 100%;
+    height: auto;
+}
+.subHeading h2{
+    width: 250px;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 auto;
+    text-align: center;
+    color: #93D0DA;
+}
+.mainContent{
+    width: 100%;
+    margin-top: 10px;
+}
+.left img{
+    float: left;
+    width: 30%;
+    height: 250px;
+}
+.right{
+    float: right;
+    width: 60%;
+    padding: 10px;
+    word-wrap: break-word;
+    color: #93D0DA;
+    font-family: 'Inter', sans-serif;
+}
+footer{
+    text-align: center;
+}
+
+@media screen and (min-width:30rem) and (max-width:60rem){
+   ul li {
+    font-size:1rem;
+    margin-right: 2px;
+   }
+   
+    .mainBtn{
+       padding: 5px;
+       font-size:1rem;
+      border-radius: 30px;
+    }
+
+   h2{
+     font-size:1rem;
+   }
+}
+
+@media screen and (min-width:10rem) and (max-width:30rem) {
+   .navlink > ul > li{
+        width: 100%;
+    }
+
+    ul li {
+    font-size:1rem;
+    margin-right: 2px;
+   }
+   
+    .mainBtn{
+       padding: 5px;
+       font-size:1rem;
+      border-radius: 30px;
+    }
+
+   h2{
+     font-size:1rem;
+   }
+
+    .left img{
+       float: none;
+       width: 97%;
+    }
+    .right{
+	float: none;
+	width: 97%;
+    }
+	.container{
+	    height: 600px;
+	    padding: 5px;
+	}
+    .logo img {
+       float: none;
+       margin: 0 auto;
+       display: grid;
+    }
+
+    .navlink > ul {
+	padding: 0;
+    }
+
+    .fa-2x {
+       font-size: 1rem !important;
+    }
+}
